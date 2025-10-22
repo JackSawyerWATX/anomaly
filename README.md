@@ -4,13 +4,76 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+# Anomaly — Personal Portfolio (Early Stage)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This repository contains the starting point for a personal portfolio site built with React and Vite. The project is in early development and currently serves as the scaffold for a dynamic portfolio that will showcase projects, provide an About page, a Contact page, and link to social profiles.
 
-## Expanding the ESLint configuration
+## What this project will include
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- A homepage / landing section showcasing an overview and a hero visual.
+- A Projects page that lists portfolio projects with short descriptions, screenshots, links, and case studies.
+- An About page with a short bio, skills, and background information.
+- A Contact page with a form or contact details so visitors can reach out.
+- Links to social profiles (LinkedIn, GitHub) prominently placed in the header/footer.
+
+## Current status
+
+- Project scaffolded using Vite + React.
+- Basic WebGL shader renderer and UI controls are integrated (work-in-progress).
+- Styling and component layout are being iterated on; accessible and responsive design is a goal.
+
+## Tech stack
+
+- React
+- Vite
+- WebGL (for shader visuals)
+- Plain CSS (some files under `src/`)
+
+## Run locally
+
+1. Install dependencies:
+
+```powershell
+npm install
+```
+
+2. Start dev server:
+
+```powershell
+npm run dev
+```
+
+3. Open the URL shown by Vite (usually `http://localhost:5173`).
+
+## Project structure (high level)
+
+- `index.html` — app entry
+- `src/` — source files (components, styles, shaders)
+- `public/` — static assets (if needed)
+- `package.json` — scripts and dependencies
+
+## Next steps (planned)
+
+- Add complete page routes for Projects, About, Contact
+- Implement responsive layout and navigation
+- Add content for each project with images and links
+- Add SEO, accessibility improvements, and contact form handling
+
+## Links
+
+- LinkedIn: (add your LinkedIn URL here)
+- GitHub: (add your GitHub profile URL here)
+
+---
+
+If you want, I can also:
+
+- Add route placeholders and a simple navigation component,
+- Wire up a Contact form (static or via a service like Formspree), or
+- Add a small README badge and license.
+
+Tell me which of the next steps you'd like me to implement first.
+
+### This is going to be pretty rad for me!
+### I love you all!! Keep Coding!!
