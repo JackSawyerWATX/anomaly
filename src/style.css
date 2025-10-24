@@ -119,12 +119,11 @@ canvas {
   display: flex;
   gap: 1.5em;
   padding: .5em 1.25em;
-  background: #1111;
+  background: #1110;
   border-radius: 4px;
-  /* Atomic Age font styling */
   font-family: 'Audiowide', system-ui, sans-serif;
   letter-spacing: 0.12em;
-  color: #0a8896; /* soft cyan-ish color */
+  color: #0a8896;
   text-transform: uppercase;
   font-size: 20px;
       text-shadow: 
@@ -170,7 +169,7 @@ canvas {
 }
 
 .controls:hover {
-  background: #111f;
+  background: #1114;
 }
 
 @keyframes pulse {

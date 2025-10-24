@@ -11,7 +11,7 @@ export default function App() {
   const [error, setError] = useState('')
   const [
     editMode, 
-    // setEditMode
+    setEditMode
   ] = useState(false)
 
   useEffect(() => {
@@ -84,9 +84,9 @@ export default function App() {
     }
   }
 
-  // const toggleView = () => {
-  //   setEditMode(prev => !prev)
-  // }
+  const toggleView = () => {
+    setEditMode(prev => !prev)
+  }
 
   return (
     <div className="app">
@@ -119,11 +119,11 @@ export default function App() {
       {error && <pre className="error">{error}</pre>}
       <div className="controls">
         <label>
-          {/* <input
+          <input
             type="checkbox"
             checked={editMode}
             onChange={toggleView}
-          /> */}
+          />
           -- jonathan.fausset --
         </label>
       </div>
